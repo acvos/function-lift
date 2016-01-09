@@ -1,6 +1,6 @@
 {
-  "name": "lift",
-  "description": "Lifts functions into given contexts: promises, lists, maybes, etc.",
+  "name": "function-lift",
+  "description": "Lifts functions into the given context: promise, list, maybe, etc.",
   "keywords": "lift, monad",
   "version": "1.0.0",
   "repository": {
