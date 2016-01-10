@@ -2,7 +2,7 @@
 Lifts functions into the given context: promise, list, maybe, etc.
 
 ## Motivation
-This tool is heavily inspired by Haskell and the functional programming concept. The main idea of lifting is to abstract away the glue that controls the flow of your application: .then() in case of promises, for example, or if (x !== undexined)). That ability makes the code clean, pure and far more reusable.
+This tool is heavily inspired by Haskell and the functional programming concept. The main idea of lifting is to abstract away the glue that controls the flow of your application: .then() in case of promises, for example, or if (x !== undefined)). That ability makes the code clean, pure and far more reusable.
 
 ## Features
 - Allows functions to operate on monadic values
