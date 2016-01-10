@@ -2,7 +2,7 @@
   "name": "function-lift",
   "description": "Lifts functions into the given context: promise, list, maybe, etc.",
   "keywords": "lift, monad",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/acvos/function-lift.git"
