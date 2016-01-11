@@ -9,7 +9,8 @@
   },
   "author": "Anthony Chernikov <achernikov@acvos>",
   "dependencies": {
-    "curry": "^1.2.0"
+    "curry": "^1.2.0",
+    "poly-map": "^1.0.0"
   },
   "engines": {
     "node": ">=4.0",
