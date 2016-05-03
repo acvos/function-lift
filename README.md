@@ -2,7 +2,7 @@
 Lifts functions into the given context: promise, list, maybe, etc.
 
 ## Motivation
-This tool is heavily inspired by Haskell and the functional programming concept. The main idea of lifting is to abstract away the glue that controls the flow of your application: .then() in case of promises, for example, or if (x !== undefined)). That ability makes the code clean, pure and far more reusable.
+This tool is heavily inspired by Haskell and the functional programming concept. The main idea of lifting is to abstract away the application control flow in some well-known patterns: .then() in case of promises, for example, or if (x !== undefined)). This ability makes code clean, pure and far more reusable.
 
 ## Features
 - Allows functions to operate on monadic values
@@ -43,7 +43,7 @@ log(multiply(100, 3));
 log(multiply(Promise.resolve(200), 4));
 log(multiply(300, Promise.resolve(10)));
 
-// I've always wanted to do this:
+// I always wanted to do this:
 var myNumber = $.get('http://my.end.point/data');
 var result = multiply(myNumber, 5);
 
