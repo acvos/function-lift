@@ -17,7 +17,7 @@ npm install function-lift
 ## Usage
 
 ```javascript
-var lift = require('../index');
+var lift = require('function-lift');
 
 function promiseUnit(x) {
     ...
